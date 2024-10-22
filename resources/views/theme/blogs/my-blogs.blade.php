@@ -1,6 +1,6 @@
 @extends("theme.master")
 
-@section("head", $blog->category->name)
+@section("head", "My Blogs")
 
 @section("content")
     <!--================ Hero sm banner start =================-->
@@ -8,7 +8,7 @@
         <div class="container">
             <div class="hero-banner hero-banner--sm">
                 <div class="hero-banner__content">
-                    <h1>{{ $blog->category->name }}</h1>
+                    <h1>My Blogs</h1>
                 </div>
             </div>
         </div>
