@@ -37,12 +37,12 @@ This is a blog website developed using Laravel, covering various categories like
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/simple-blog.git
+   https://github.com/mohamedmagdy841/blog-website.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd simple-blog
+   cd blog-website
    ```
 
 3. Copy `.env.example` to `.env` and configure your environment variables (e.g., database settings, caching):
