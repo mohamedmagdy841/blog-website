@@ -84,18 +84,13 @@
                                             <x-input-error :messages="$errors->get('name')" class="mt-2" />
                                         </div>
                                         <div class="form-group col-lg-6 col-md-6 email">
-                                            <input type="email" class="form-control" name="email" placeholder="Enter email address"
-                                                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter email address'">
-                                            <x-input-error :messages="$errors->get('email')" class="mt-2" />
+                                            <input type="text" class="form-control" name="subject" placeholder="Subject"
+                                                   onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'">
+                                            <x-input-error :messages="$errors->get('subject')" class="mt-2" />
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                               onfocus="this.placeholder = ''" onblur="this.placeholder = 'Subject'">
-                                        <x-input-error :messages="$errors->get('subject')" class="mt-2" />
-                                    </div>
-                                    <div class="form-group">
-                                <textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege"
+                                        <textarea class="form-control mb-10" rows="5" name="message" placeholder="Messege"
                                           onfocus="this.placeholder = ''" onblur="this.placeholder = 'Messege'" required=""></textarea>
                                         <x-input-error :messages="$errors->get('message')" class="mt-2" />
                                     </div>

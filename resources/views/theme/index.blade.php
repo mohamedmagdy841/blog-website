@@ -24,10 +24,10 @@
                 <div class="container">
                     <div class="owl-carousel owl-theme blog-slider">
                         @foreach($sliderBlogs as $blog)
-                            <div class="item">
+                            <div class="item" >
                                 <div class="blog-slider-content">
                                     <a href="{{ route("blogs.show", ["blog"=> $blog]) }}">
-                                        <img src="{{ asset('storage/blogs/' . $blog->image) }}" alt="{{ $blog->name }}" class="blog-slider-img img-fluid">
+                                        <img src="{{ asset('storage/blogs/' . $blog->image) }}" alt="{{ $blog->name }}" class="blog-slider-img img-fluid"  style="height: 200px; width: 400px">
                                     </a>
                                     <div class="blog-details">
                                         <h5>{{ $blog->name }}</h5>
